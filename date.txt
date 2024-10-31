@@ -1,0 +1,56 @@
+array date structure:
+
+definition of arrary is that array is a contiguours block of memory used to store elemnets of the same data type.
+
+injavascript array are dynamic and can store element of mixed date types and ther are methods like puche() .pop() .shift() .unshift() for manipulation arrarys.
+
+_________________________________________________________________________________________________________________________________________________________
+date structure :
+
+definition a linked list is a collection of nodes , wher each node contain date and a reference or link to the next node , advantage enables dynamic memory allocation and efficient insertion/deletion especally when modifying the list head or tail
+
+javascript dost not have a built in linked list but you can creat a linked list structure using object and poiters.
+
+_________________________________________________________________________________________________________________________________________________________
+stact date structure :
+
+definition a stact is a last in first out date structure with two main operation:
+puch to add en elemnt and pop to remove the most recently added element
+
+javascript arrary can be used to implement stact in javascript with .puch() for adding element and .pop() for removing them.
+
+_________________________________________________________________________________________________________________________________________________________
+
+queue date structure:
+definition a queue is first in first out (FIFO) date structure with enqueue and dequeue
+
+javascript a queue can be implement using arrary wher .puch() adds to the back and .shift() removes from the front.
+
+_________________________________________________________________________________________________________________________________________________________
+
+performance analysis in algorithms
+
+definition performance analysis mesures the effcincy of algorithms focusing on time complecity and space complexity
+
+javscript can test algorithm performance in javascript using console.time() and console.timeEnd() to time executions
+
+_________________________________________________________________________________________________________________________________________________________
+
+advance sorting algorithms:
+
+definition sorting algorthms arrange date in order with advance methods like merge sort,qick sort,and heap sort offering effciency on larger datasets.
+like:
+	marge sort:O(nlogn) averge complexity stable sort
+	quick sort:O(nlogn) average complexity but can degrade to O(n²) in the worst case 		unstable sort.
+	Head Sort :O(nlogn),often used in scenarios requiring minimal space.
+
+javscript we use .sort()method by default used a variant of quicksort or merge sort depending on the engine
+
+_________________________________________________________________________________________________________________________________________________________
+
+Manipulating Data Structures in JavaScript:
+
+Definition: Toy problems are small coding exercises designed to practice data structure manipulation and algorithmic problem-solving.
+
+JavaScript Techniques: JavaScript provides built-in methods and syntax for data structures like arrays (map, filter, reduce), objects (Object.keys(), Object.values()), and allows implementing stacks, queues, and other structures.
+
